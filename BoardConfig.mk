@@ -17,7 +17,7 @@
 # Bootloader
 BOARD_VENDOR := samsung
 TARGET_SOC := exynos7884B
-TARGET_BOOTLOADER_BOARD_NAME := universal7885
+TARGET_BOOTLOADER_BOARD_NAME := universal7884B
 TARGET_NO_BOOTLOADER := true
 TARGET_NO_RADIOIMAGE := true
 TARGET_USES_UEFI := true
@@ -119,8 +119,6 @@ TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel/brightness"
 TW_MAX_BRIGHTNESS := 255
 TW_DEFAULT_BRIGHTNESS := 150
 TW_SKIP_COMPATIBILITY_CHECK := true
-TW_Y_OFFSET := 60
-TW_H_OFFSET := -60
 TW_EXCLUDE_DEFAULT_USB_INIT := true
 TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/kernel/config/usb_gadget/g1/functions/mass_storage.0/lun.%d/file"
 TW_NO_REBOOT_BOOTLOADER := true
